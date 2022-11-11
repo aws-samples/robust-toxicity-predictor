@@ -2,6 +2,11 @@
 
 This repository contains code to showcase how to train a transformer-based toxicity language classifier using Huggingface, test the trained model on adversarial examples, and then perform adversarial training and analyze its effect on the trained toxicity classifier.
 
+## Data
+* Manually download the Jigsaw toxic comment classification Data Set from Kaggle: https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/data
+
+* Unzip and save the data to a local folder named `data`
+
 ## Repo Structure
 ```bash
 +-- notebooks
